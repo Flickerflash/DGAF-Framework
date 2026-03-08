@@ -3,7 +3,7 @@
 ![NIST Compliant](https://img.shields.io/badge/Compliance-NIST%20AI%20RMF-blue)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue)
 
-Ethical AI Security framework featuring Agent Lavender micro-benchmarks and Gold Star validation processes.
+Ethical AI Security framework featuring Agent Amethyst and Agent Apogee micro-benchmarks and Gold Star validation processes.
 
 ## License
 
