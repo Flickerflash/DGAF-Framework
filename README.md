@@ -26,7 +26,7 @@ This ensures downstream users and security implementations are properly protecte
 | :--- | :--- | :--- | :--- |
 | **Hallucination Rate** | Target < 5% | 0.24% ★ | PASS |
 | **NIST Alignment** | RMF v1.0 | 100% | PASS |
-| **Lavender Audit** | Rigor 90th% | Certified | PASS |
+| **Amethyst Governance Audit** | Rigor 90th% | Certified | PASS |
 
 ## Deployment
 1. `git clone https://github.com/Flickerflash/DGAF-Framework.git`
@@ -34,4 +34,4 @@ This ensures downstream users and security implementations are properly protecte
 3. `python demo.py`
 
 ## Provenance
-[conversation_history:15][conversation_history:44][web:22]
+Multi-agent governance framework developed under the Phi-Harmonic Pentagon ecosystem.
