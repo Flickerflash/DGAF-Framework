@@ -1,0 +1,64 @@
+# DGAF Ensemble Roster
+
+> **Canonical agent registry for the Flickerflash DGAF (Dynamic Governance Agentic Formation) stack.**  
+> All repos governed by this stack reference this file as the authoritative source of agent roles.
+>
+> Maintained by: **Agent Amethyst** (meta-orchestrator)  
+> Last updated: April 2026  
+> Governance spine: [DGAF-Framework](https://github.com/Flickerflash/DGAF-Framework)
+
+---
+
+## Active Agents
+
+| Agent | Role Class | Primary Function | Status |
+|---|---|---|---|
+| **Agent Amethyst** | Meta-Orchestrator | Certification authority, governance synthesis, final sign-off, conductor for multi-agent sweeps | 🟢 Active |
+| **Agent Apogee** | Evidence Governance Orchestrator | DGAF/Rose Gold frameworks, source validation, multi-phase evidence review, OWASP compliance | 🟢 Active |
+| **Agent Sentinel** | Safety & CI Integrity | CI/CD enforcement, guardrail activation, boundary violation detection, detect-remediate-revalidate | 🟢 Active |
+| **Agent Reciprocity** | Portfolio & Rollback Manager | TNR (Transactional No-Regression), version control, workload balancing, revert/checkpoint ops | 🟢 Active |
+| **Professor Prodigy** | Formalization & Proof Specialist | Formal logic, mathematical proofs, phi-calculus, hendecabonacci, harmonic geometry derivations | 🟢 Active |
+| **Agent DemiJoule** | Energy & Optimization Specialist | Token cost analysis, compute efficiency, quality gating weights, resource optimization | 🟢 Active |
+| **COLLEEN** | Best Practice Collector & Archive Curator | De-duplication, rubric scoring, Best Practice & Beyond library, standards compliance, continuity tracking | 🟢 Active |
+| **Agent Herald** | Communication & Broadcast Layer | Narrative synthesis, inter-agent messaging, Persona-Framework-Persona anchor | 🟢 Active |
+| **Agent Reson** | Resonance & Pattern Analyst | Convergence/divergence flagging across agent outputs, harmonic pattern recognition | 🟢 Active |
+| **Agent Echolette** | Reflection Verifier | Echo validation, output consistency verification | 🟢 Active |
+| **Agent Lyra** | Harmonic Synthesizer | Frequency balancing, phi-gate layer integration across tiers | 🟢 Active |
+
+---
+
+## Retired Agents
+
+| Agent | Retired | Reason | Successor |
+|---|---|---|---|
+| **Agent Lavender** | April 2026 | Role consolidated into Amethyst + Apogee; superseded by DGAF orchestration model | Agent Amethyst (evaluation authority), Agent Apogee (evidence governance) |
+
+---
+
+## Triad Configurations
+
+Common multi-agent working groups used in sweep and deliberation sessions:
+
+| Triad | Agents | Use Case |
+|---|---|---|
+| **Governance Triad** | Amethyst + Apogee + Sentinel | Compliance sweeps, security audits, CI enforcement |
+| **Coherence Triad** | Amethyst + COLLEEN + Apogee | Ecosystem coherence, doc sweeps, identity alignment |
+| **Formalization Triad** | Amethyst + Professor Prodigy + Reson | Mathematical proof review, phi-calculus derivations |
+| **Optimization Triad** | Amethyst + DemiJoule + Reciprocity | Token budget, rollback planning, cost-quality tradeoffs |
+
+---
+
+## Cross-Reference
+
+This roster is referenced by the following repos:
+
+- [DGAF-Framework](https://github.com/Flickerflash/DGAF-Framework) — governance spine (this file)
+- [Amethyst-Governance-Eval-Stack](https://github.com/Flickerflash/Amethyst-Governance-Eval-Stack) — ARCHITECTURE.md agent diagram
+- [junior-apogee-app](https://github.com/Flickerflash/junior-apogee-app) — QA platform agent roles
+- [sentinel-governance](https://github.com/Flickerflash/sentinel-governance) — CI agent attribution
+- [Driftwatch](https://github.com/Flickerflash/Driftwatch) — AGENTS.md simulation roles
+- [Flickerflash/Flickerflash](https://github.com/Flickerflash/Flickerflash) — profile README agent table
+
+---
+
+*All agents operate under the DGAF governance framework. For architectural context, see [README.md](README.md) and [CHANGELOG.md](CHANGELOG.md).*
