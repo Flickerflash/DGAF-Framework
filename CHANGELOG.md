@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-04-28
+
+### Fixed
+
+- **README deploy block**: Removed references to `requirements.txt` and `demo.py` which did not exist in the repository, causing broken install instructions for all visitors
+- **Usage section**: Replaced broken pip/python commands with accurate spec-repository usage pattern (no runtime deps required)
+
+### Added
+
+- **Ecosystem cross-links**: Added links to `junior-apogee-app`, `sentinel-governance`, `ai-governance-frameworks`, and `Driftwatch` in README
+- **Topics badge**: Added visual topics indicator for discoverability
+- **Provenance attribution**: Author and ecosystem context added to README footer
+- **Agent Amethyst description**: Clarified meta-orchestrator role in capabilities section
+- **OWASP Agentic Top 10**: Documented integrated safety sweep layer
+- **Phi-Harmonic Gating**: Documented 1-1-1-1 Gate, Triad Consensus, and Platinum Strata convergence patterns
+
+---
+
 ## [1.0.0] - 2026-01-04
 
 ### License Change
