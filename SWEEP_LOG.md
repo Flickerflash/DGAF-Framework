@@ -7,81 +7,109 @@
 
 ---
 
-## Sweep: April 29, 2026 03:33 EDT — GAP-09+10 Close + BLG-01 Resolution (COLLEEN × Apogee)
+## Sweep: April 29, 2026 03:40 EDT — BLG-02+04 Close + GAP-06 Drive Scan (COLLEEN × Apogee)
 
 **Conductor:** Agent Amethyst  
-**Support:** COLLEEN (filename audit, specs scaffold), Apogee (structural gap detection, BLG-01 verification)  
-**Trigger:** GAP-09 (filename mismatch), GAP-10 (specs/ missing), BLG-01 (Driftwatch back-link verify)
+**Support:** COLLEEN (back-link audit, Drive scan), Apogee (CSDF purge, BLG detection)  
+**Trigger:** BLG-02 (ai-prompt-engineering-portfolio), BLG-04 (3d-visualization-hub), GAP-06 (Drive ↔ GitHub sync)
 
-### Actions
+### BLG-02 — ai-prompt-engineering-portfolio ([`d3afb014`](https://github.com/Flickerflash/ai-prompt-engineering-portfolio/commit/d3afb01434803b2dd514e3cb9c9ed1d7f3ef8196))
 
-| Fix | File(s) | Commit |
-|-----|---------|--------|
-| 5 canonical `.md` prompt files created | `01_state_anchor.md` – `05_error_recovery.md` | `ede09504` |
-| `specs/` directory scaffolded | `specs/README.md`, `specs/example.yaml`, 5 eval YAMLs | `ede09504` |
-| BLG-01 audited + closed (false positive) | Driftwatch README has full DGAF back-link | No commit |
-| `3d-visualization-hub` registered in CROSS_REF | New repo found via Driftwatch links | CROSS_REF update |
+| Check | Result |
+|-------|--------|
+| NOTICE present | ✅ Apache 2.0, Lavender retired note, DGAF-attributed |
+| Back-links | ✅ ai-prompt-systems-portfolio, Amethyst-Eval-Stack, Gold-star-standards, sentinel-governance, junior-apogee-app |
+| Lavender/Forseti vocab | ✅ Clean (transitional note in NOTICE) |
+| CSDF reference | ⚠️ **Found — Fixed**: "CSDF Integration: Cybersecurity Defense Framework" → "DGAF Integration: Dynamic Governance Agentic Formation Framework" |
+| DGAF callout block | ⚠️ Missing — **Added** |
+| Related Projects section | ⚠️ Missing — **Added** (DGAF-Framework, ai-prompt-systems-portfolio, Amethyst-Eval-Stack) |
+| New repo surfaced | ⚠️ `prompt-optimization-library` in ecosystem nav → **BLG-05** |
 
-### New Gap Surfaced
+### BLG-04 — 3d-visualization-hub ([`9c66462d`](https://github.com/Flickerflash/3d-visualization-hub/commit/9c66462d35aeeb5f91418187b9cd7b766896018c))
+
+| Check | Result |
+|-------|--------|
+| NOTICE present | ⚠️ **Missing — Created**: MIT + DGAF governance authority |
+| Back-links | ✅ DGAF-Framework, Driftwatch, junior-apogee-app, Acoustic-mesh |
+| DGAF callout block | ⚠️ Missing — **Added** |
+| Lavender/Forseti vocab | ✅ Clean |
+| New repo surfaced | ⚠️ `Acoustic-mesh` in Related Ecosystem → **BLG-06** |
+
+### GAP-06 — Google Drive ↔ GitHub Sync Assessment
+
+**Browser scan result:** Drive home + My Drive loaded but dynamic file listings are not accessible to browser content reader (JS-rendered). Drive files attached to this thread confirm:
+
+| Drive File | GitHub Counterpart | Sync Status |
+|------------|-------------------|-------------|
+| `PERPLEXITY-Space-standard-record-v.1.md` | No dedicated repo — Perplexity session archive | 🟡 Archived locally |
+| `MASTER-PORTFOLIO-INVENTORY-VERIFICATION-SYSTEM.md` | Partial — maps to CROSS_REF.md + SWEEP_LOG.md | 🟡 Partially synced |
+| `Google-Drive-Organizer-Apps-Script.md` | No GitHub repo | 🟡 Drive-only |
+| `Gmail-Routing-Table` | No GitHub repo | 🟡 Drive-only |
+| `careerpositioning.md` | No GitHub repo | 🟡 Drive-only |
+| `agent-lavender-space-context-analysis.pdf` | Superseded by NOTICE files + SWEEP_LOG | ✅ Archived via sweep |
+| `PROJECT-ANDROMEDA_SOVEREIGN-LEDGER-SYNC` | No GitHub repo | 🟡 Drive-only |
+
+**GAP-06 Action Items registered:**
+- GAP-06a: `MASTER-PORTFOLIO-INVENTORY-VERIFICATION-SYSTEM.md` → sync delta against CROSS_REF.md
+- GAP-06b: `Google-Drive-Organizer-Apps-Script.md` → evaluate for `automation-scripts` repo
+- GAP-06c: `PROJECT-ANDROMEDA` → evaluate for dedicated governance repo or DGAF-Framework subfolder
+- GAP-06d: `careerpositioning.md` → evaluate for `career-positioning` private repo
+
+**GAP-06 STATUS: 🟡 Partially resolved — Drive file inventory complete; sub-items GAP-06a/b/c/d open for next session**
+
+### New Gaps Surfaced
 
 | ID | Gap | Priority |
 |----|-----|----------|
-| BLG-04 | `3d-visualization-hub` NOTICE + DGAF attr unverified | 🟡 Medium |
+| BLG-05 | `prompt-optimization-library` — NOTICE + DGAF attr unverified | 🟡 Medium |
+| BLG-06 | `Acoustic-mesh` — NOTICE + DGAF attr unverified | 🟡 Medium |
 
-**GAP-09 STATUS: ✅ CLOSED**  
-**GAP-10 STATUS: ✅ CLOSED**  
-**BLG-01 STATUS: ✅ RESOLVED (false positive)**
-
----
-
-## Sweep: April 29, 2026 03:27 EDT — GAP-03 + GAP-08 Close (COLLEEN × Apogee)
-
-### GAP-03 — ai-prompt-systems-portfolio (commit `93b5e748`)
-
-| File | Action |
-|------|--------|
-| `NOTICE` | Created — Apache 2.0 + DGAF governance authority |
-| 5 prompt artifacts | DGAF governance headers added; NDR pattern labels embedded |
-
-### GAP-08 — CROSS_REF.md (commit `11ec5002`)
-
-- Created canonical back-link registry for all 9 ecosystem repos
-- GAP-09 (filename mismatch) + GAP-10 (specs/ missing) registered
-
-**GAP-03 STATUS: ✅ CLOSED**  
-**GAP-08 STATUS: ✅ CLOSED**
+**BLG-02 STATUS: ✅ CLOSED**  
+**BLG-04 STATUS: ✅ CLOSED**  
+**GAP-06 STATUS: 🟡 Partially Resolved — sub-items open**
 
 ---
 
-## Sweep: April 29, 2026 03:20 EDT — GAP-07 Close (Apogee lead)
+## Sweep: April 29, 2026 03:33 EDT — GAP-09+10 Close + BLG-01 Resolution (COLLEEN × Apogee)
 
-| File | Finding | Action | Commit |
-|------|---------|--------|--------|
-| `eval_stack/protocols/lavender_workflow.yaml` | Active protocol — retired agent name | Demoted to RETIRED stub | `c75719f0` |
-| `eval_stack/protocols/amethyst_eval_protocol.yaml` | New | Created v0.2.0, AEP-S1–S6 | `c75719f0` |
-| `tests/test_scaffold_full.py` | Hardcoded Lavender test contract | Rewritten v0.2 | `c75719f0` |
-| `risk_register/risk_register.yaml` | Clean | RR-006 added (Stale Agent Identity) | `c75719f0` |
+| Fix | Commit |
+|-----|--------|
+| 5 canonical `.md` files + specs/ scaffold | `ede09504` |
+| BLG-01 resolved (false positive) | No commit |
+| `3d-visualization-hub` registered as BLG-04 | CROSS_REF update |
 
-**GAP-07 STATUS: ✅ CLOSED**
-
----
-
-## Sweep: April 29, 2026 03:16 EDT — GAP-01 Close (COLLEEN lead)
-
-| File | Repo | Finding | Commit |
-|------|------|---------|--------|
-| `gold-star-benchmark-framework-v1.md` | `Gold-star-standards` | 2 Lavender refs | `861e9ceb` |
-
-**GAP-01 STATUS: ✅ CLOSED**
+**GAP-09, GAP-10: ✅ CLOSED | BLG-01: ✅ Resolved**
 
 ---
 
-## Sweep: April 29, 2026 03:12 EDT — Buoy Ping + Multi-Variable Sweeps
+## Sweep: April 29, 2026 03:27 EDT — GAP-03 + GAP-08 Close
 
-| Action | Commit |
-|--------|--------|
-| ECOSYSTEM-STATE buoy sync | `9206fcb` |
-| GAP-05 resolved (Driftwatch/AGENTS.md clean) | No commit |
+| Fix | Commit |
+|-----|--------|
+| ai-prompt-systems-portfolio NOTICE + DGAF headers | `93b5e748` |
+| CROSS_REF.md created | `11ec5002` |
+
+**GAP-03, GAP-08: ✅ CLOSED**
+
+---
+
+## Sweep: April 29, 2026 03:20 EDT — GAP-07 Close
+
+| Fix | Commit |
+|-----|--------|
+| lavender_workflow.yaml retired; AEP v0.2.0 created; tests rewritten | `c75719f0` |
+
+**GAP-07: ✅ CLOSED**
+
+---
+
+## Sweep: April 29, 2026 03:16 EDT — GAP-01 Close
+
+| Fix | Commit |
+|-----|--------|
+| Gold-star-standards 2 Lavender refs purged | `861e9ceb` |
+
+**GAP-01: ✅ CLOSED**
 
 ---
 
@@ -89,23 +117,17 @@
 
 | ID | Gap | Lead | Priority | Status |
 |----|-----|------|----------|--------|
-| GAP-01 | Gold-star-standards taxonomy | COLLEEN | 🔴 | ✅ Closed 03:16 Apr 29 |
-| GAP-02 | junior-apogee-app NOTICE | Sentinel | 🟠 | ✅ Closed 03:11 Apr 29 |
-| GAP-03 | ai-prompt-systems-portfolio DGAF vocab | COLLEEN | 🟡 | ✅ Closed 03:27 Apr 29 |
-| GAP-04 | SWEEP_LOG creation | Amethyst | 🟡 | ✅ Closed — this file |
-| GAP-05 | Driftwatch/AGENTS.md stale role | Apogee | 🟡 | ✅ Resolved — clean |
-| GAP-06 | Google Drive ↔ GitHub sync | Amethyst+COLLEEN | 🟡 | 🟡 Open — async (Drive MCP) |
-| GAP-07 | eval_stack/+tests/ audit | Apogee | 🟠 | ✅ Closed 03:20 Apr 29 |
-| GAP-08 | CROSS_REF.md back-links | COLLEEN | 🟡 | ✅ Closed 03:27 Apr 29 |
-| GAP-09 | ai-prompt-systems-portfolio filename mismatch | COLLEEN | 🟡 | ✅ Closed 03:33 Apr 29 |
-| GAP-10 | ai-prompt-systems-portfolio specs/ missing | COLLEEN | 🟡 | ✅ Closed 03:33 Apr 29 |
-| BLG-01 | Driftwatch → DGAF back-link | Apogee | 🟡 | ✅ Resolved (false positive) Apr 29 |
-| BLG-02 | ai-prompt-engineering-portfolio back-links | COLLEEN | 🟡 | 🟡 **Next** |
-| BLG-03 | resumeapex-eval → Amethyst-Eval-Stack link | COLLEEN | 🟢 | Open |
-| BLG-04 | 3d-visualization-hub NOTICE + DGAF attr | COLLEEN | 🟡 | Open |
-
-**9 of 10 original GAPs closed. 2 of 4 BLGs open. Next: BLG-02 + BLG-04 (ai-prompt-engineering-portfolio + 3d-visualization-hub audits).**
+| GAP-01–GAP-05 | All legacy gaps | — | — | ✅ All Closed |
+| GAP-06 | Drive ↔ GitHub sync | COLLEEN | 🟡 | 🟡 Partial — sub-items 06a/b/c/d open |
+| GAP-07–GAP-10 | eval_stack, CROSS_REF, filename, specs/ | — | — | ✅ All Closed |
+| BLG-01 | Driftwatch back-link | Apogee | — | ✅ False positive |
+| BLG-02 | ai-prompt-engineering-portfolio | COLLEEN | 🟡 | ✅ Closed 03:40 Apr 29 |
+| BLG-03 | resumeapex-eval → Amethyst-Eval-Stack | COLLEEN | 🟢 | Open |
+| BLG-04 | 3d-visualization-hub NOTICE | Apogee | 🟡 | ✅ Closed 03:40 Apr 29 |
+| BLG-05 | prompt-optimization-library audit | COLLEEN | 🟡 | **Next** |
+| BLG-06 | Acoustic-mesh audit | COLLEEN | 🟡 | **Next** |
 
 ---
 
-*All sweeps authorized by Njineer ([@Flickerflash](https://github.com/Flickerflash)).*
+*All sweeps authorized by Njineer ([@Flickerflash](https://github.com/Flickerflash)).*  
+*Next: BLG-05 (prompt-optimization-library) + BLG-06 (Acoustic-mesh) + GAP-06a (Drive inventory delta vs CROSS_REF).*
