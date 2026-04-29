@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue)
 ![Topics](https://img.shields.io/badge/topics-ai--governance%20%7C%20multi--agent%20%7C%20phi--calculus-purple)
 
-**Dynamic Governance Assurance Framework** — an ethical AI security and evaluation framework anchored to the Phi-Harmonic Pentagon ecosystem, featuring Agent Amethyst meta-orchestration, Agent Apogee governance audits, and Gold Star validation processes.
+**Dynamic Governance Agentic Formation (DGAF)** — an ethical AI security and evaluation framework anchored to the Phi-Harmonic Pentagon ecosystem, featuring Agent Amethyst meta-orchestration, Agent Apogee governance audits, and Gold Star validation processes.
 
 ## Core Capabilities
 
