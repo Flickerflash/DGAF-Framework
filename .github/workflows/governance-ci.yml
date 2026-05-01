@@ -1,0 +1,56 @@
+name: Governance CI — YAML Lint + Secret Scan + Doc Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  yaml-lint:
+    name: YAML Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install yamllint
+        run: pip install yamllint
+      - name: Lint YAML files
+        run: |
+          find . -name '*.yml' -o -name '*.yaml' | \
+            grep -v node_modules | \
+            xargs yamllint -d relaxed
+        continue-on-error: true
+
+  secret-scan:
+    name: Gitleaks Secret Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  doc-gate:
+    name: Required Docs Gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required governance docs
+        run: |
+          REQUIRED=("README.md" "CHANGELOG.md" "NOTICE" "LICENSE" "SECURITY.md" "SWEEP_LOG.md" "ENSEMBLE_ROSTER.md" "CROSS_REF.md")
+          MISSING=0
+          for f in "${REQUIRED[@]}"; do
+            if [ ! -f "$f" ]; then
+              echo "❌ MISSING: $f"
+              MISSING=$((MISSING+1))
+            else
+              echo "✅ $f"
+            fi
+          done
+          if [ $MISSING -gt 0 ]; then
+            echo "❌ $MISSING required governance doc(s) missing."
+            exit 1
+          fi
+          echo "✅ All required governance docs present."
