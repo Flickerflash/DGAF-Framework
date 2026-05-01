@@ -4,7 +4,7 @@
 > Maintained by: **Agent COLLEEN** (Continuity, Archive, Cross-Repo Coherence)
 > Audited by: **Agent Apogee** (Evidence Governance, Gap Detection)
 > Conductor: **Agent Amethyst**
-> Last full sweep: **May 01, 2026 06:45 EDT — Session 017 — All 21 repos clean ✅**
+> Last full sweep: **May 01, 2026 06:42 EDT — Session 019 — All 21 repos clean ✅**
 
 ---
 
@@ -80,7 +80,7 @@ ndrorchestration (GitHub org)
 | `automation-scripts` | Google Apps Scripts; Drive Organizer live | ✅ Active | ✅ | ✅ | May 01 2026 |
 | `gold-star-qa-framework` | ⛔ ARCHIVED — superseded by Gold-star-standards | ⛔ Archived | — | — | May 01 2026 |
 
-**ECOSYSTEM STATUS: ✅ ALL 21 REPOS REGISTERED | Session 017 2026-05-01**
+**ECOSYSTEM STATUS: ✅ ALL 21 REPOS REGISTERED | Session 019 2026-05-01**
 
 ---
 
@@ -93,6 +93,7 @@ ndrorchestration (GitHub org)
 | `DGAF-Framework` | `README.md` | `sentinel-governance` | Related project | ✅ |
 | `DGAF-Framework` | `README.md` | `Gold-star-standards` | Related project | ✅ |
 | `DGAF-Framework` | `docs/gates/GATE_SPECS.md` | All gate sub-docs | Internal cross-ref | ✅ |
+| `DGAF-Framework` | `docs/sync/DRIVE_SYNC_POLICY.md` | All platform endpoints | Drive sync spec | ✅ |
 | `Amethyst-Governance-Eval-Stack` | `ARCHITECTURE.md` | `DGAF-Framework` | Governance spine | ✅ |
 | `Amethyst-Governance-Eval-Stack` | `README.md` | `junior-apogee-app` | Related project | ✅ |
 | `Amethyst-Governance-Eval-Stack` | `eval_stack/protocols/MDAR_PROTOCOL_v1.md` | `Gold-star-standards` | Certification gate | ✅ |
@@ -143,7 +144,8 @@ ndrorchestration (GitHub org)
 
 ## GAP-06 Drive ↔ GitHub Sync Register
 
-**GAP-06 STATUS: ✅ ALL SUB-GAPS RESOLVED** (closed Session 004)
+**GAP-06 STATUS: ✅ ALL SUB-GAPS RESOLVED** (closed Session 004)  
+**Extended by:** `docs/sync/DRIVE_SYNC_POLICY.md` — full operational spec (Session 019)
 
 ---
 
@@ -181,6 +183,7 @@ Auto-flag for re-audit when:
 | 2.3 | May 01 06:35 | S015 seal; GAP-01 closed; GSS 5 cross-links; open GAP register inline |
 | 2.4 | May 01 06:40 | S016 seal; GAP-03 closed; AGES ARCHITECTURE.md back-link |
 | 2.5 | May 01 06:45 | S017 seal; GAP-07 closed; AGES MDAR→Gold-star-standards cert link added |
+| 2.6 | May 01 06:42 | S019 seal; P1-IP all 3 closed; Flickerflash residual cleared; Drive sync policy registered; ENSEMBLE_ROSTER updated |
 
 ---
 

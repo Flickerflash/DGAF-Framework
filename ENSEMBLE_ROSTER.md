@@ -4,7 +4,7 @@
 > All repos governed by this stack reference this file as the authoritative source of agent roles.
 >
 > Maintained by: **Agent Amethyst** (meta-orchestrator)  
-> Last updated: May 2026  
+> Last updated: May 01, 2026 — Session 019  
 > Governance spine: [DGAF-Framework](https://github.com/ndrorchestration/DGAF-Framework)
 
 ---
@@ -45,6 +45,16 @@ Common multi-agent working groups used in sweep and deliberation sessions:
 | **Coherence Triad** | Amethyst + COLLEEN + Apogee | Ecosystem coherence, doc sweeps, identity alignment |
 | **Formalization Triad** | Amethyst + Professor Prodigy + Reson | Mathematical proof review, phi-calculus derivations |
 | **Optimization Triad** | Amethyst + DemiJoule + Reciprocity | Token budget, rollback planning, cost-quality tradeoffs |
+| **IP Sweep Formation** | Amethyst + Perplexity MCP | License scanning, SPDX remediation, identity purge (Flickerflash) | 
+
+---
+
+## Session 019 Notes
+
+- P1-IP sweep executed in Amethyst + Perplexity MCP formation — all 3 SPDX fixes landed (S019)
+- Flickerflash copyright purge residual found and cleared in `junior-apogee-app` LICENSE (Section 1 Licensor definition)
+- Drive sync policy formalized: `docs/sync/DRIVE_SYNC_POLICY.md`
+- Perplexity MCP added to IP Sweep Triad configuration above as a recognized working formation
 
 ---
 
