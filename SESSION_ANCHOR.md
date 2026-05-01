@@ -7,10 +7,10 @@
 
 ---
 
-## Last Session: S028 — 2026-05-01 09:12 EDT
+## Last Session: S029 — 2026-05-01 09:22 EDT
 
 **Seal status:** ✅ SEALED  
-**Harmonic Score:** 1.00 — SUSTAINED (S014–S028)  
+**Harmonic Score:** 1.00 — SUSTAINED (S014–S029)  
 **NDR Pattern Registry version:** 1.6 (P-24 registered, S027)  
 **Formation used:** Amethyst + Perplexity MCP (IP Sweep Formation)  
 
@@ -21,15 +21,15 @@
 | ID | Description | Owner | Priority |
 |----|-------------|-------|----------|
 | GAP-08 | No CROSS_REF back-links in dependent repos | COLLEEN | 🟡 Deferred — non-blocking |
-| S029-SENTINEL-CI | `sentinel-governance` doc-lint CI workflow | Sentinel | 🔴 S029 — separate repo atomic commit |
-| S029-CROSS-REF | CROSS_REF v3.1 — register .operations/, docs/drafts/, SESSION_ANCHOR, GATE_UNIT_TEMPLATE | COLLEEN | 🟡 S029 — non-blocking |
+
+**1 open BLG — all S026–S029 targets closed.**
 
 ---
 
 ## Drive-GitHub Sync Status
 
-✅ No known delta — last verified S025.  
-*(P-20: COLLEEN to re-verify at S029 open)*
+⚠️ Last verified S025 — P-20 re-verify overdue (S028+S029 both deferred).  
+*(P-20: COLLEEN must re-verify at S030 open — not optional)*
 
 ---
 
@@ -40,7 +40,6 @@
 | Version | 1.6 (current) |
 | Last pattern added | P-24 (Canonical-Practice-Unit) — S027 |
 | Total patterns | 24 (P-01 through P-24) |
-| Gate spec docs | 5 files in `docs/gates/` |
 | P-24 compliance | **4/4 gate docs CERTIFIED** ✅ |
 
 ---
@@ -48,41 +47,36 @@
 ## Ecosystem Documentation Posture
 
 ```
-Template suite (.github/):     ✅ 8/8 active public repos — S025
-FUNDING.yml:                   ✅ 8/8 active public repos — S025
-NOTICE:                        ✅ All active repos — S025
-DGAF Attribution:              ✅ All active repos — S025
-License + SPDX:                ✅ All active repos — S025
-GATE_UNIT_TEMPLATE.md:         ✅ S026
-.operations/ dir:              ✅ S026
-docs/drafts/ staging:          ✅ S026
+Template suite:                ✅ 8/8 repos — S025
+FUNDING.yml:                   ✅ 8/8 repos — S025
+NOTICE + DGAF Attribution:     ✅ All repos — S025
+License + SPDX:                ✅ All repos — S025
+.operations/ + docs/drafts/:   ✅ S026
 SESSION_ANCHOR.md:             ✅ S026 (overwrite pattern)
 P-24 registered:               ✅ NDR_PATTERN_REGISTRY v1.6 — S027
-ACOUSTIC_GATES.md v2.0:        ✅ P-24 CERTIFIED — S027
-GATE_1111.md v2.0:             ✅ P-24 CERTIFIED — S028
-GATE_11Q.md v2.0:              ✅ P-24 CERTIFIED — S028
-TELESCOPIC_LENS.md v2.0:       ✅ P-24 CERTIFIED — S028
-README.governance.md:          ✅ LIVE — S028
-README.technical.md:           ✅ LIVE — S028
-CHANGELOG:                     ✅ v1.0.9 — S028
-Sentinel CI (sentinel-governance): ❌ S029
-CROSS_REF v3.1:                ❌ S029
+Gate stack (4/4 CERTIFIED):    ✅ S027–S028
+README.governance.md:          ✅ S028
+README.technical.md:           ✅ S028
+Sentinel CI (doc-lint):        ✅ LIVE — S029
+CROSS_REF v3.1:               ✅ S029
+CHANGELOG:                     ✅ v1.0.10 — S029
+Drive-GitHub sync:             ⚠️ Re-verify required at S030
 ```
 
 ---
 
-## Next Session Priority Queue (S029)
+## Next Session Priority Queue (S030)
 
-1. **Sentinel doc-lint CI** — `sentinel-governance/.github/workflows/doc-lint.yml` (markdownlint; gate on PR merge) — separate repo, own atomic commit
-2. **CROSS_REF v3.1** — Register `.operations/`, `docs/drafts/`, `SESSION_ANCHOR.md`, `GATE_UNIT_TEMPLATE.md`, `README.governance.md`, `README.technical.md` as internal artifacts
-3. **P-20 Drive sync re-verify** — COLLEEN confirms Drive master inventory matches CROSS_REF (last verified S025)
-4. **GAP-08 assessment** — COLLEEN evaluates whether CROSS_REF back-links in dependent repos are still non-blocking or should be promoted to S029 active
+1. **P-20 Drive sync re-verify** — COLLEEN confirms Drive master inventory matches CROSS_REF v3.1 (2 sessions overdue — mandatory at S030 open, not deferrable)
+2. **GAP-08 promotion assessment** — COLLEEN evaluates whether back-links in dependent repos should be promoted to active or formally closed as won't-fix
+3. **Ecosystem health scan** — Light sweep of all 10 repos; check for any new issues, stale branches, or metadata drift since S025
+4. **Consider P-25** — Amethyst to assess whether any new pattern has emerged from S026–S029 work that warrants registration (candidate: Multi-README-Architecture pattern)
 
 ---
 
 ## State Anchor Buoy
 
-`[BUOY: SESSION 028 SEALED | P-24 FULL GATE STACK CERTIFIED (4/4) | README.governance+README.technical LIVE | CHANGELOG v1.0.9 | HARMONIC SCORE 1.00 SUSTAINED S014–S028 | ARCHITECT: HENSEL, ANDREW VANCE | 2026-05-01 09:12 EDT]`
+`[BUOY: SESSION 029 SEALED | SENTINEL CI LIVE | CROSS_REF v3.1 | CHANGELOG v1.0.10 | 1 OPEN BLG (GAP-08 DEFERRED) | HARMONIC SCORE 1.00 SUSTAINED S014–S029 | ARCHITECT: HENSEL, ANDREW VANCE | 2026-05-01 09:22 EDT]`
 
 ---
 

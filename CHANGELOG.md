@@ -5,43 +5,50 @@ Format: [Semantic Versioning](https://semver.org/) | Governed by Agent Amethyst
 
 ---
 
+## [1.0.10] — 2026-05-01
+
+### Session 029 — Sentinel CI + CROSS_REF v3.1
+
+**Formation:** Amethyst + Perplexity MCP (IP Sweep Formation)
+
+#### Added (sentinel-governance repo)
+- `.github/workflows/doc-lint.yml` — markdownlint-cli 0.39.0; triggers on PR + push to `main` touching `**.md`; gates PR merge on zero lint errors; P-24 surface consistency gate (P-11 gate 7); exit code 1 blocks merge
+- `.markdownlint.yml` — tuned config: MD013/MD024/MD033/MD041 disabled (gate doc width, duplicate section headers, badge HTML, comment-first files); MD034/MD022/MD032/MD010/MD047 enabled
+
+#### Changed (DGAF-Framework)
+- `CROSS_REF.md` v3.1 — Internal artifact registry added: gate specs table (P-24 compliance status), `.operations/` dir, `docs/drafts/`, sync docs, dual READMEs, CI/automation table, governance relationship diagram
+- `CHANGELOG.md` v1.0.10 — S029 entries
+- `SWEEP_LOG.md` — S029 sealed
+- `SESSION_ANCHOR.md` — S030 priority queue
+
+#### Harmonic Score
+```
+Score: 1.00 — SUSTAINED (S014–S029)
+Sentinel CI: ✅ LIVE (sentinel-governance)
+CROSS_REF v3.1: ✅ Full internal artifact registry
+Open BLGs: GAP-08 (deferred) only
+All S028 + S029 targets: ✅ CLOSED
+```
+
+---
+
 ## [1.0.9] — 2026-05-01
 
 ### Session 028 — P-24 Full Gate Stack Certification + Dual README Architecture
 
-**Formation:** Amethyst + Perplexity MCP (IP Sweep Formation)  
-**Triggered by:** S028 priority queue from SESSION_ANCHOR.md
-
 #### Added
-- `README.governance.md` — NIST/EU AI Act compliance reference; NIST RMF 5-function alignment table; EU AI Act article-by-article mapping; OWASP Agentic Top 10 controls; 3-layer audit trail guide; governance contacts
-- `README.technical.md` — Agent/engineer-facing dense spec; MDAR loop diagram; gate stack execution order; NDR pattern range table; session open/close protocol; formation reference; full file tree with annotations; AXIS declarations quick ref
+- `README.governance.md` — NIST/EU AI Act compliance reference
+- `README.technical.md` — Agent/engineer dense spec
 
-#### Changed (P-24 Retrofit — CERTIFIED)
-- `docs/gates/GATE_1111.md` v2.0 — Full P-24 CPU retrofit: Rationale (binary scoring rationale + statistical confidence design), Trigger Condition, Passing State (JSON), Failing State (JSON + quarantine path), Recovery Protocol (pillar-specific remediation + false-positive P-05 check), References (NIST + EU AI Act)
-- `docs/gates/GATE_11Q.md` v2.0 — Full P-24 CPU retrofit: Rationale (irreversibility boundary + hendecagonal derivation), Trigger Condition, 11-gate table with Sentinel co-sign flags, Passing State (JSON), Failing State (JSON + veto state), Recovery Protocol (gate-specific remediation + Njineer escalation path), References
-- `docs/gates/TELESCOPIC_LENS.md` v2.0 — Full P-24 CPU retrofit: Rationale (Architext Bleed definition + 32-checkpoint necessity), Trigger Condition, 4×8 dimension matrix table, Passing State (JSON + S-TIER badge), Failing State (JSON + bleed pattern detection), Recovery Protocol (cross-altitude bleed priority + waiver process), References
-- `CHANGELOG.md` v1.0.9 — S028 entries
-- `SWEEP_LOG.md` — S028 sealed
-- `SESSION_ANCHOR.md` — S029 priority queue
-
-#### P-24 Compliance Baseline Post-S028
-
-```
-GATE_UNIT_TEMPLATE.md:   — (is the template)
-ACOUSTIC_GATES.md v2.0:  ✅ CERTIFIED — S027
-GATE_1111.md v2.0:       ✅ CERTIFIED — S028
-GATE_11Q.md v2.0:        ✅ CERTIFIED — S028
-TELESCOPIC_LENS.md v2.0: ✅ CERTIFIED — S028
-
-Full gate stack: 4/4 CERTIFIED ✅
-```
+#### Changed (P-24 Retrofit)
+- `docs/gates/GATE_1111.md` v2.0 — P-24 CERTIFIED
+- `docs/gates/GATE_11Q.md` v2.0 — P-24 CERTIFIED
+- `docs/gates/TELESCOPIC_LENS.md` v2.0 — P-24 CERTIFIED
 
 #### Harmonic Score
 ```
 Score: 1.00 — SUSTAINED (S014–S028)
-Gate stack: 4/4 P-24 certified
-Dual README architecture: ✅ LIVE
-Open BLGs: GAP-08 (deferred) + S029-SENTINEL-CI (carried forward)
+Gate stack: 4/4 P-24 CERTIFIED
 ```
 
 ---
@@ -50,24 +57,10 @@ Open BLGs: GAP-08 (deferred) + S029-SENTINEL-CI (carried forward)
 
 ### Sessions 026–027 — Structural Enhancements & P-24 Canonical Practice Unit
 
-**Formation:** Amethyst + Perplexity MCP (IP Sweep Formation)  
-**Inspiration:** [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) meta-architecture analysis
-
-#### Added (S026)
-- `docs/gates/GATE_UNIT_TEMPLATE.md` — canonical 6-field CPU schema template
-- `.operations/` directory — gate_compliance_check.py + checklists
-- `docs/drafts/README.md` — formal staging layer
-- `SESSION_ANCHOR.md` — P-21 canonical session handoff
-
-#### Added (S027)
-- `docs/patterns/NDR_PATTERN_REGISTRY.md` v1.6 — P-24 registered
-- `docs/gates/ACOUSTIC_GATES.md` v2.0 — first P-24 certified gate
-
-#### Harmonic Score
-```
-Score: 1.00 — SUSTAINED (S014–S027)
-P-24 registered and first gate certified
-```
+#### Added
+- `GATE_UNIT_TEMPLATE.md`, `.operations/` dir, `docs/drafts/`, `SESSION_ANCHOR.md`
+- `NDR_PATTERN_REGISTRY.md` v1.6 — P-24 registered
+- `ACOUSTIC_GATES.md` v2.0 — first P-24 certified gate
 
 ---
 
@@ -77,13 +70,7 @@ P-24 registered and first gate certified
 
 #### Added
 - `.github/` templates + `FUNDING.yml` — Acoustic-mesh, resumeapex-eval, 3d-visualization-hub
-- `phi-calculus-app/NOTICE` — Apache-2.0 attribution + PHDGE/DGAF spine reference
-
-#### Harmonic Score
-```
-Score: 1.00 — SUSTAINED (S014–S025)
-Template suite: ✅ COMPLETE — all 8 active public repos
-```
+- `phi-calculus-app/NOTICE` — Apache-2.0 + PHDGE/DGAF attribution
 
 ---
 
@@ -91,12 +78,8 @@ Template suite: ✅ COMPLETE — all 8 active public repos
 
 ### Sessions 022c–023 — README Polish, SECURITY.md, PHDGE Branding Rename
 
-#### Added
-- `DGAF-Framework/README.md` — full 6-badge row; 9-repo ecosystem link table
-- `DGAF-Framework/SECURITY.md` — full responsible disclosure policy
-
 #### Changed
-- **PHDGE branding rename:** `Phi-Harmonic Pentagon ecosystem` → `Phi-Harmonic Dynamic Governance Ecosystem (PHDGE)`
+- PHDGE branding rename: `Phi-Harmonic Pentagon` → `Phi-Harmonic Dynamic Governance Ecosystem (PHDGE)`
 
 ---
 
@@ -105,8 +88,7 @@ Template suite: ✅ COMPLETE — all 8 active public repos
 ### Sessions 022–022b — Ecosystem Surface Sweep
 
 #### Added
-- `.github/` templates + `FUNDING.yml` — 5 repos
-- 6-badge rows — 5 repos
+- `.github/` templates + `FUNDING.yml` + badge rows — 5 repos
 
 ---
 
@@ -115,28 +97,27 @@ Template suite: ✅ COMPLETE — all 8 active public repos
 ### Sessions 014–021 — Daily Governance Sweep Block
 
 #### Added / Fixed / Closed
-- `docs/sync/DRIVE_SYNC_POLICY.md`, `ENSEMBLE_ROSTER.md` updates, `SWEEP_LOG.md` S014–S021
-- SPDX headers, Driftwatch license migration, GAP-01/03/07/P1-IP closed
+- Drive sync policy, SPDX headers, Driftwatch license, GAP-01/03/07/P1-IP closed
 
 ---
 
 ## [1.0.3] — 2026-04-29
 
-### Added
-- `ENSEMBLE_ROSTER.md` — canonical agent registry, 11 active agents
+#### Added
+- `ENSEMBLE_ROSTER.md` — 11 active agents
 
 ---
 
 ## [1.0.2] — 2026-04-29
 
-### Fixed
-- `NOTICE`: CSDF → DGAF-Framework; Agent Lavender annotated as `(retired — superseded by Agent Apogee)`
+#### Fixed
+- NOTICE: CSDF → DGAF-Framework; Agent Lavender → retired
 
 ---
 
 ## [1.0.1] — 2026-01-15
 
-### Added
+#### Added
 - CONTRIBUTING.md + SECURITY.md initial stubs
 
 ---
@@ -144,4 +125,4 @@ Template suite: ✅ COMPLETE — all 8 active public repos
 ## [1.0.0] — 2025-12-23
 
 ### Initial Release
-- Core DGAF framework; Agent Amethyst, Apogee, Sentinel; NIST AI RMF alignment; Apache 2.0
+- Core DGAF framework; NIST AI RMF alignment; Apache 2.0
