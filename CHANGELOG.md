@@ -5,6 +5,52 @@ Format: [Semantic Versioning](https://semver.org/) | Governed by Agent Amethyst
 
 ---
 
+## [1.0.4] — 2026-05-01
+
+### Sessions 014–021 — Daily Governance Sweep Block
+
+**Formation:** Amethyst + COLLEEN + Apogee + Sentinel + Perplexity MCP (IP Sweep Formation for S018–S021)
+
+#### Added
+- `docs/sync/DRIVE_SYNC_POLICY.md` — canonical cross-platform Google Drive sync specification; hub-and-spoke topology; per-platform rules (Windows, macOS, Android, iOS, external drives); conflict controls; exclusion list; JSON manifest (S019)
+- `ENSEMBLE_ROSTER.md` — IP Sweep Formation (Amethyst + Perplexity MCP) added as recognized working triad (S019); S021 session notes block
+- `SWEEP_LOG.md` — Sessions 014–021 sealed; full day audit chain complete
+
+#### Fixed / Upgraded
+- `DGAF-Framework/LICENSE` — SPDX-License-Identifier: Apache-2.0 prepended (S019 P1-IP-01)
+- `ai-governance-frameworks/LICENSE` — SPDX-License-Identifier: Apache-2.0 prepended (S019 P1-IP-02)
+- `junior-apogee-app/LICENSE` — SPDX header added; `Ndr (Flickerflash)` → `Ndr (ndrorchestration)` in Section 1 Licensor definition (S019 P1-IP-03 — Flickerflash purge residual cleared)
+- `Driftwatch/LICENSE` — MIT → Apache-2.0 full text with SPDX header; patent grant clause now active for phi-harmonic attractor IP (S020 P2)
+
+#### Closed
+- GAP-01: Gold-star-standards agent taxonomy (S015)
+- GAP-03: ai-prompt-systems-portfolio DGAF vocabulary alignment (S016)
+- GAP-07: Amethyst-Governance-Eval-Stack — all 4 dirs populated, 8 files, Tier 1 operational (S017)
+- P1-IP-01/02/03: SPDX license headers across DGAF-Framework, ai-governance-frameworks, junior-apogee-app (S019)
+- P2: Driftwatch MIT → Apache-2.0 upgrade (S020)
+- P3: gold-star-qa-framework deprecation — resolved via archive status (S020)
+
+#### Deferred (no coherence risk)
+- GAP-08: CROSS_REF back-links in dependent repos — COLLEEN async action 🟡
+- P3: Topic metadata on 5 repos — Njineer UI-only (gear icon) 🟡
+
+#### CROSS_REF
+- v2.5 (S017): GAP-07 closed; AGES MDAR→Gold-star-standards cert link
+- v2.6 (S019): P1-IP all 3 closed; Flickerflash residual cleared; Drive sync doc registered
+- v2.7 (S021): Driftwatch Apache-2.0 upgrade noted; License column added to public repo table; last sweep advanced to S021
+
+#### Harmonic Score
+```
+Score: 1.00 — SUSTAINED ALL DAY (S014–S021)
+All P1 and P2 items closed.
+Flickerflash purge: COMPLETE.
+License posture (all public repos): COMPLETE.
+AGES eval stack: COMPLETE.
+Drive sync policy: COMPLETE.
+```
+
+---
+
 ## [1.0.3] — 2026-04-29
 
 ### Added

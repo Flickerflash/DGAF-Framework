@@ -4,7 +4,7 @@
 > Maintained by: **Agent COLLEEN** (Continuity, Archive, Cross-Repo Coherence)
 > Audited by: **Agent Apogee** (Evidence Governance, Gap Detection)
 > Conductor: **Agent Amethyst**
-> Last full sweep: **May 01, 2026 06:42 EDT — Session 019 — All 21 repos clean ✅**
+> Last full sweep: **May 01, 2026 07:22 EDT — Session 021 (Finality) — All 21 repos clean ✅**
 
 ---
 
@@ -24,7 +24,7 @@ ndrorchestration (GitHub org)
 │   ├── DGAF-Framework                     (governance spine)
 │   ├── junior-apogee-app                   (primary agent eval platform)
 │   ├── sentinel-governance                (CI/CD integrity)
-│   ├── Driftwatch                         (phi-driven drift detection)
+│   ├── Driftwatch                         (phi-driven drift detection — Apache-2.0 as of S020)
 │   ├── Acoustic-mesh                      (WebRTC acoustic mesh)
 │   ├── resumeapex-eval                    (flagship benchmark)
 │   ├── 3d-visualization-hub               (governance viz)
@@ -51,19 +51,19 @@ ndrorchestration (GitHub org)
 
 ### Public Repositories
 
-| Repo | URL | Role | Gov Status | NOTICE | DGAF Attr | Last Audited |
-|------|-----|------|------------|--------|-----------|--------------|
-| `DGAF-Framework` | [link](https://github.com/ndrorchestration/DGAF-Framework) | Governance spine | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `junior-apogee-app` | [link](https://github.com/ndrorchestration/junior-apogee-app) | Primary agent eval | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `sentinel-governance` | [link](https://github.com/ndrorchestration/sentinel-governance) | CI/CD + secret scan | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `Driftwatch` | [link](https://github.com/ndrorchestration/Driftwatch) | Phi-driven drift detection | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `Acoustic-mesh` | [link](https://github.com/ndrorchestration/Acoustic-mesh) | WebRTC phi-harmonic mesh | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `resumeapex-eval` | [link](https://github.com/ndrorchestration/resumeapex-eval) | Flagship benchmark | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `3d-visualization-hub` | [link](https://github.com/ndrorchestration/3d-visualization-hub) | Governance viz + drift rendering | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `ai-governance-frameworks` | [link](https://github.com/ndrorchestration/ai-governance-frameworks) | NIST/ISO/IIA governance docs | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `ai-prompt-systems-portfolio` | [link](https://github.com/ndrorchestration/ai-prompt-systems-portfolio) | IP-safe prompt samples; GAP-03 closed S016 | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `ndrorchestration` | [link](https://github.com/ndrorchestration/ndrorchestration) | GitHub profile README | ✅ Active | — | — | May 01 2026 |
-| `.github` | [link](https://github.com/ndrorchestration/.github) | Community health files | ✅ Active | — | — | May 01 2026 |
+| Repo | URL | Role | Gov Status | NOTICE | DGAF Attr | License | Last Audited |
+|------|-----|------|------------|--------|-----------|---------|---------------|
+| `DGAF-Framework` | [link](https://github.com/ndrorchestration/DGAF-Framework) | Governance spine | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | May 01 2026 |
+| `junior-apogee-app` | [link](https://github.com/ndrorchestration/junior-apogee-app) | Primary agent eval | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | May 01 2026 |
+| `sentinel-governance` | [link](https://github.com/ndrorchestration/sentinel-governance) | CI/CD + secret scan | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
+| `Driftwatch` | [link](https://github.com/ndrorchestration/Driftwatch) | Phi-driven drift detection | ✅ Active | ✅ | ✅ | **Apache-2.0 + SPDX** (upgraded S020) | May 01 2026 |
+| `Acoustic-mesh` | [link](https://github.com/ndrorchestration/Acoustic-mesh) | WebRTC phi-harmonic mesh | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
+| `resumeapex-eval` | [link](https://github.com/ndrorchestration/resumeapex-eval) | Flagship benchmark | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
+| `3d-visualization-hub` | [link](https://github.com/ndrorchestration/3d-visualization-hub) | Governance viz + drift rendering | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
+| `ai-governance-frameworks` | [link](https://github.com/ndrorchestration/ai-governance-frameworks) | NIST/ISO/IIA governance docs | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | May 01 2026 |
+| `ai-prompt-systems-portfolio` | [link](https://github.com/ndrorchestration/ai-prompt-systems-portfolio) | IP-safe prompt samples; GAP-03 closed S016 | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
+| `ndrorchestration` | [link](https://github.com/ndrorchestration/ndrorchestration) | GitHub profile README | ✅ Active | — | — | — | May 01 2026 |
+| `.github` | [link](https://github.com/ndrorchestration/.github) | Community health files | ✅ Active | — | — | — | May 01 2026 |
 
 ### Private Repositories
 
@@ -80,7 +80,7 @@ ndrorchestration (GitHub org)
 | `automation-scripts` | Google Apps Scripts; Drive Organizer live | ✅ Active | ✅ | ✅ | May 01 2026 |
 | `gold-star-qa-framework` | ⛔ ARCHIVED — superseded by Gold-star-standards | ⛔ Archived | — | — | May 01 2026 |
 
-**ECOSYSTEM STATUS: ✅ ALL 21 REPOS REGISTERED | Session 019 2026-05-01**
+**ECOSYSTEM STATUS: ✅ ALL 21 REPOS REGISTERED | Session 021 FINALITY 2026-05-01**
 
 ---
 
@@ -156,7 +156,7 @@ ndrorchestration (GitHub org)
 | ~~GAP-01~~ | ~~Gold-star-standards agent taxonomy~~ | COLLEEN | — | ✅ CLOSED S015 |
 | ~~GAP-03~~ | ~~ai-prompt-systems-portfolio DGAF vocab~~ | COLLEEN | — | ✅ CLOSED S016 |
 | ~~GAP-07~~ | ~~AGES dirs: scaffold + full eval content~~ | Apogee | — | ✅ **CLOSED S017** — 8 files across 4 dirs |
-| GAP-08 | No CROSS_REF back-links in dependent repos | COLLEEN | 🟡 Low-med | Open |
+| GAP-08 | No CROSS_REF back-links in dependent repos | COLLEEN | 🟡 Low-med | 🟡 Open — Formally deferred; no coherence risk |
 
 ---
 
@@ -183,7 +183,8 @@ Auto-flag for re-audit when:
 | 2.3 | May 01 06:35 | S015 seal; GAP-01 closed; GSS 5 cross-links; open GAP register inline |
 | 2.4 | May 01 06:40 | S016 seal; GAP-03 closed; AGES ARCHITECTURE.md back-link |
 | 2.5 | May 01 06:45 | S017 seal; GAP-07 closed; AGES MDAR→Gold-star-standards cert link added |
-| 2.6 | May 01 06:42 | S019 seal; P1-IP all 3 closed; Flickerflash residual cleared; Drive sync policy registered; ENSEMBLE_ROSTER updated |
+| 2.6 | May 01 06:42 | S019 seal; P1-IP all 3 closed; Flickerflash residual cleared; Drive sync policy registered |
+| 2.7 | May 01 07:22 | S020–S021 finality: Driftwatch Apache-2.0 upgrade noted in registry; P2/P3 closed; last sweep advanced to S021; License column added to public repo table |
 
 ---
 
