@@ -1,11 +1,11 @@
 # DGAF Ensemble Roster
 
-> **Canonical agent registry for the Flickerflash DGAF (Dynamic Governance Agentic Formation) stack.**  
+> **Canonical agent registry for the ndrorchestration DGAF (Dynamic Governance Agentic Formation) Framework stack.**  
 > All repos governed by this stack reference this file as the authoritative source of agent roles.
 >
 > Maintained by: **Agent Amethyst** (meta-orchestrator)  
-> Last updated: April 2026  
-> Governance spine: [DGAF-Framework](https://github.com/Flickerflash/DGAF-Framework)
+> Last updated: May 2026  
+> Governance spine: [DGAF-Framework](https://github.com/ndrorchestration/DGAF-Framework)
 
 ---
 
@@ -52,12 +52,12 @@ Common multi-agent working groups used in sweep and deliberation sessions:
 
 This roster is referenced by the following repos:
 
-- [DGAF-Framework](https://github.com/Flickerflash/DGAF-Framework) — governance spine (this file)
-- [Amethyst-Governance-Eval-Stack](https://github.com/Flickerflash/Amethyst-Governance-Eval-Stack) — ARCHITECTURE.md agent diagram
-- [junior-apogee-app](https://github.com/Flickerflash/junior-apogee-app) — QA platform agent roles
-- [sentinel-governance](https://github.com/Flickerflash/sentinel-governance) — CI agent attribution
-- [Driftwatch](https://github.com/Flickerflash/Driftwatch) — AGENTS.md simulation roles
-- [Flickerflash/Flickerflash](https://github.com/Flickerflash/Flickerflash) — profile README agent table
+- [DGAF-Framework](https://github.com/ndrorchestration/DGAF-Framework) — governance spine (this file)
+- [Amethyst-Governance-Eval-Stack](https://github.com/ndrorchestration/Amethyst-Governance-Eval-Stack) — ARCHITECTURE.md agent diagram
+- [junior-apogee-app](https://github.com/ndrorchestration/junior-apogee-app) — QA platform agent roles
+- [sentinel-governance](https://github.com/ndrorchestration/sentinel-governance) — CI agent attribution
+- [Driftwatch](https://github.com/ndrorchestration/Driftwatch) — AGENTS.md simulation roles
+- [ndrorchestration](https://github.com/ndrorchestration/ndrorchestration) — profile README agent table
 
 ---
 
