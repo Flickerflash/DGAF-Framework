@@ -1,9 +1,9 @@
 # Harmonic Quintet Formation Spec
 
 **Pattern:** P-15 — Harmonic-Quintet-Gate  
-**Version:** 1.0  
+**Version:** 1.1  
 **Maintained by:** Amethyst-Conductor  
-**Last updated:** 2026-05-01 (S012)
+**Last updated:** 2026-05-01 (S013 — COH-03/04 resolved)
 
 ---
 
@@ -45,6 +45,14 @@ Sentinel holds **hard veto** (overrides Amethyst) on commits that:
 - Remove a `DGAF-Framework` spine link from a public repo
 
 Sentinel veto requires explicit Njineer confirmation to override.
+
+## Authority Conflict Resolution
+
+If a Sentinel sovereign veto conflicts with an Amethyst decision, Njineer is the sole resolver. No agent — including Amethyst — may override a Sentinel sovereign veto without explicit Njineer confirmation. Stalemate escalation timeout: 24 hours. After timeout, the commit is blocked until Njineer resolves.
+
+## Idempotency Guarantee
+
+Re-running this formation on the same wave state produces identical commits, identical Reson scores (within ±0.02 tolerance), and no duplicate sovereign audit log entries.
 
 ## Output
 
