@@ -1,9 +1,12 @@
-# DGAF-Framework
+![Status](https://img.shields.io/badge/Status-Gold%20Star%20Certified-gold?style=flat-square)
+![License](https://img.shields.io/badge/License-Apache%202.0-01696f?style=flat-square)
+![Language](https://img.shields.io/badge/Language-Python-blue?style=flat-square)
+![Governed](https://img.shields.io/badge/Governed%20by-DGAF--Framework-7a39bb?style=flat-square)
+![NIST](https://img.shields.io/badge/Compliance-NIST%20AI%20RMF-4f98a3?style=flat-square)
+![Maintained](https://img.shields.io/badge/Maintained-yes-437a22?style=flat-square)
 ![Governance Sweep](https://github.com/ndrorchestration/DGAF-Framework/actions/workflows/governance-sweep.yml/badge.svg)
-![Gold Star Certified](https://img.shields.io/badge/Status-Gold%20Star%20Certified-gold)
-![NIST Compliant](https://img.shields.io/badge/Compliance-NIST%20AI%20RMF-blue)
-![License](https://img.shields.io/badge/License-Apache%202.0-blue)
-![Topics](https://img.shields.io/badge/topics-ai--governance%20%7C%20multi--agent%20%7C%20phi--calculus-purple)
+
+# DGAF-Framework
 
 **Dynamic Governance Agentic Formation (DGAF)** — an ethical AI security and evaluation framework anchored to the Phi-Harmonic Pentagon ecosystem, featuring Agent Amethyst meta-orchestration, Agent Apogee governance audits, and Gold Star validation processes.
 
@@ -37,25 +40,20 @@ No runtime dependencies required. All artifacts are specification documents and 
 ## Related Ecosystem
 
 - [junior-apogee-app](https://github.com/ndrorchestration/junior-apogee-app) — Production AI eval & QA platform (OWASP Agentic)
-- [sentinel-governance](https://github.com/ndrorchestration/sentinel-governance) — Automated CI/CD integrity monitoring
-- [ai-governance-frameworks](https://github.com/ndrorchestration/ai-governance-frameworks) — NIST, ISO 42001, IIA AI Auditing frameworks
-- [Driftwatch](https://github.com/ndrorchestration/Driftwatch) — Phi-driven real-time drift detection
+- [sentinel-governance](https://github.com/ndrorchestration/sentinel-governance) — Automated CI/CD integrity monitoring and governance sweeps
 - [Amethyst-Governance-Eval-Stack](https://github.com/ndrorchestration/Amethyst-Governance-Eval-Stack) — Multi-agent governance evaluation, MDAR protocol
-- [sentinel-governance](https://github.com/ndrorchestration/sentinel-governance) — Automated integrity monitoring and CI/CD governance sweeps
+- [Driftwatch](https://github.com/ndrorchestration/Driftwatch) — Phi-driven real-time drift detection
+- [ai-governance-frameworks](https://github.com/ndrorchestration/ai-governance-frameworks) — NIST, ISO 42001, IIA AI Auditing frameworks
+- [ai-prompt-systems-portfolio](https://github.com/ndrorchestration/ai-prompt-systems-portfolio) — IP-safe prompt engineering samples
+- [resumeapex-eval](https://github.com/ndrorchestration/resumeapex-eval) — Flagship evaluation benchmark
+- [3d-visualization-hub](https://github.com/ndrorchestration/3d-visualization-hub) — Governance drift visualization
+- [Acoustic-mesh](https://github.com/ndrorchestration/Acoustic-mesh) — WebRTC phi-harmonic acoustic mesh
 
 ## License
 
-**As of January 2026, this project is licensed under [Apache License 2.0](LICENSE).**
+This project is licensed under the [Apache License 2.0](LICENSE).
 
-Previous versions were released under MIT License and remain available under those terms.
-
-### Why Apache 2.0?
-
-As a security and governance framework for enterprise AI systems, Apache 2.0 provides:
-
-- **Explicit patent protection** critical for security frameworks
-- **Clear modification requirements** for tracked security implementations
-- **Enterprise compliance alignment** for formal security adoption
+Apache 2.0 provides explicit patent protection critical for a security and governance framework, clear modification requirements for tracked security implementations, and enterprise compliance alignment.
 
 ## Provenance
 
