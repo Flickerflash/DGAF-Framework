@@ -4,7 +4,7 @@
 > Maintained by: **Agent COLLEEN** (Continuity, Archive, Cross-Repo Coherence)
 > Audited by: **Agent Apogee** (Evidence Governance, Gap Detection)
 > Conductor: **Agent Amethyst**
-> Last full sweep: **May 01, 2026 07:22 EDT — Session 021 (Finality) — All 21 repos clean ✅**
+> Last full sweep: **May 01, 2026 07:39 EDT — Session 022b (Surface Sweep Patch) — All 21 repos clean ✔️**
 
 ---
 
@@ -51,19 +51,19 @@ ndrorchestration (GitHub org)
 
 ### Public Repositories
 
-| Repo | URL | Role | Gov Status | NOTICE | DGAF Attr | License | Last Audited |
-|------|-----|------|------------|--------|-----------|---------|---------------|
-| `DGAF-Framework` | [link](https://github.com/ndrorchestration/DGAF-Framework) | Governance spine | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | May 01 2026 |
-| `junior-apogee-app` | [link](https://github.com/ndrorchestration/junior-apogee-app) | Primary agent eval | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | May 01 2026 |
-| `sentinel-governance` | [link](https://github.com/ndrorchestration/sentinel-governance) | CI/CD + secret scan | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
-| `Driftwatch` | [link](https://github.com/ndrorchestration/Driftwatch) | Phi-driven drift detection | ✅ Active | ✅ | ✅ | **Apache-2.0 + SPDX** (upgraded S020) | May 01 2026 |
-| `Acoustic-mesh` | [link](https://github.com/ndrorchestration/Acoustic-mesh) | WebRTC phi-harmonic mesh | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
-| `resumeapex-eval` | [link](https://github.com/ndrorchestration/resumeapex-eval) | Flagship benchmark | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
-| `3d-visualization-hub` | [link](https://github.com/ndrorchestration/3d-visualization-hub) | Governance viz + drift rendering | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
-| `ai-governance-frameworks` | [link](https://github.com/ndrorchestration/ai-governance-frameworks) | NIST/ISO/IIA governance docs | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | May 01 2026 |
-| `ai-prompt-systems-portfolio` | [link](https://github.com/ndrorchestration/ai-prompt-systems-portfolio) | IP-safe prompt samples; GAP-03 closed S016 | ✅ Active | ✅ | ✅ | Apache-2.0 | May 01 2026 |
-| `ndrorchestration` | [link](https://github.com/ndrorchestration/ndrorchestration) | GitHub profile README | ✅ Active | — | — | — | May 01 2026 |
-| `.github` | [link](https://github.com/ndrorchestration/.github) | Community health files | ✅ Active | — | — | — | May 01 2026 |
+| Repo | URL | Role | Gov Status | NOTICE | DGAF Attr | License | Templates | Last Audited |
+|------|-----|------|------------|--------|-----------|---------|-----------|---------------|
+| `DGAF-Framework` | [link](https://github.com/ndrorchestration/DGAF-Framework) | Governance spine | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | ✅ | May 01 2026 |
+| `junior-apogee-app` | [link](https://github.com/ndrorchestration/junior-apogee-app) | Primary agent eval | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | ✅ S022 | May 01 2026 |
+| `sentinel-governance` | [link](https://github.com/ndrorchestration/sentinel-governance) | CI/CD + secret scan | ✅ Active | ✅ | ✅ | Apache-2.0 | ✅ S022b | May 01 2026 |
+| `Driftwatch` | [link](https://github.com/ndrorchestration/Driftwatch) | Phi-driven drift detection | ✅ Active | ✅ | ✅ | **Apache-2.0 + SPDX** (upgraded S020) | ✅ S022 | May 01 2026 |
+| `Acoustic-mesh` | [link](https://github.com/ndrorchestration/Acoustic-mesh) | WebRTC phi-harmonic mesh | ✅ Active | ✅ | ✅ | Apache-2.0 | — | May 01 2026 |
+| `resumeapex-eval` | [link](https://github.com/ndrorchestration/resumeapex-eval) | Flagship benchmark | ✅ Active | ✅ | ✅ | Apache-2.0 | — | May 01 2026 |
+| `3d-visualization-hub` | [link](https://github.com/ndrorchestration/3d-visualization-hub) | Governance viz + drift rendering | ✅ Active | ✅ | ✅ | Apache-2.0 | — | May 01 2026 |
+| `ai-governance-frameworks` | [link](https://github.com/ndrorchestration/ai-governance-frameworks) | NIST/ISO/IIA governance docs | ✅ Active | ✅ | ✅ | Apache-2.0 + SPDX | — | May 01 2026 |
+| `ai-prompt-systems-portfolio` | [link](https://github.com/ndrorchestration/ai-prompt-systems-portfolio) | IP-safe prompt samples; GAP-03 closed S016 | ✅ Active | ✅ | ✅ | Apache-2.0 | ✅ S022 | May 01 2026 |
+| `ndrorchestration` | [link](https://github.com/ndrorchestration/ndrorchestration) | GitHub profile README | ✅ Active | — | — | — | — | May 01 2026 |
+| `.github` | [link](https://github.com/ndrorchestration/.github) | Community health files | ✅ Active | — | — | — | — | May 01 2026 |
 
 ### Private Repositories
 
@@ -74,13 +74,13 @@ ndrorchestration (GitHub org)
 | `ai-prompt-engineering-portfolio` | v1 archive — DGAF certified baseline | ✅ Active | ✅ | ✅ | May 01 2026 |
 | `prompt-optimization-library` | v0 baseline archive | ✅ Active | ✅ | ✅ | May 01 2026 |
 | `AI-Prompt-Engineer` | Historical archive; GCP dormant | ✅ Active | ✅ | ✅ | May 01 2026 |
-| `Amethyst-Governance-Eval-Stack` | Multi-tier eval framework; GAP-07 closed S017 — fully operational | ✅ Active | — | ✅ | May 01 2026 |
+| `Amethyst-Governance-Eval-Stack` | Multi-tier eval framework; GAP-07 closed S017 — fully operational; ✅ S022 templates | ✅ Active | — | ✅ | May 01 2026 |
 | `phi-calculus-app` | Phi-harmonic calculus explorer | ✅ Active | — | — | May 01 2026 |
 | `career-positioning` | COLLEEN-governed career strategy; PATHS.md live | ✅ Active | ✅ | ✅ | May 01 2026 |
 | `automation-scripts` | Google Apps Scripts; Drive Organizer live | ✅ Active | ✅ | ✅ | May 01 2026 |
 | `gold-star-qa-framework` | ⛔ ARCHIVED — superseded by Gold-star-standards | ⛔ Archived | — | — | May 01 2026 |
 
-**ECOSYSTEM STATUS: ✅ ALL 21 REPOS REGISTERED | Session 021 FINALITY 2026-05-01**
+**ECOSYSTEM STATUS: ✔️ ALL 21 REPOS REGISTERED | Session 022b SURFACE SWEEP 2026-05-01**
 
 ---
 
@@ -184,7 +184,8 @@ Auto-flag for re-audit when:
 | 2.4 | May 01 06:40 | S016 seal; GAP-03 closed; AGES ARCHITECTURE.md back-link |
 | 2.5 | May 01 06:45 | S017 seal; GAP-07 closed; AGES MDAR→Gold-star-standards cert link added |
 | 2.6 | May 01 06:42 | S019 seal; P1-IP all 3 closed; Flickerflash residual cleared; Drive sync policy registered |
-| 2.7 | May 01 07:22 | S020–S021 finality: Driftwatch Apache-2.0 upgrade noted in registry; P2/P3 closed; last sweep advanced to S021; License column added to public repo table |
+| 2.7 | May 01 07:22 | S020–S021 finality: Driftwatch Apache-2.0 noted; License column added; last sweep S021 |
+| 2.8 | May 01 07:39 | S022/S022b surface sweep: Templates column added to public repo table; 5 repos with full .github/ suite; FUNDING.yml ecosystem-wide; badge posture complete |
 
 ---
 

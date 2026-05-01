@@ -5,6 +5,42 @@ Format: [Semantic Versioning](https://semver.org/) | Governed by Agent Amethyst
 
 ---
 
+## [1.0.5] — 2026-05-01
+
+### Sessions 022–022b — Ecosystem Surface Sweep (S022/S022b)
+
+**Formation:** Amethyst + Perplexity MCP (IP Sweep Formation)
+
+#### Added
+- `.github/ISSUE_TEMPLATE/bug_report.md` — Amethyst-Governance-Eval-Stack, ai-prompt-systems-portfolio, Driftwatch, junior-apogee-app, sentinel-governance
+- `.github/ISSUE_TEMPLATE/feature_request.md` — all 5 repos above
+- `.github/pull_request_template.md` — all 5 repos above
+- `.github/FUNDING.yml` — all 5 repos above (GitHub Sponsors button activated)
+- 6 shields.io badges added to Amethyst-Governance-Eval-Stack README (Status, License, Language, Governed-by, NIST, Maintained)
+- 6 shields.io badges added to ai-prompt-systems-portfolio README (Status, License, Language, Governed-by, IP-Safe, Maintained) — Language badge patched in S022b
+- Driftwatch README badge row upgraded: MIT → Apache 2.0 corrected; flat-square style consistency; Governed-by badge added
+
+#### Fixed
+- `ai-prompt-systems-portfolio/README.md` — Language:Python badge omitted in S022; patched in S022b (S022b)
+- `Driftwatch/README.md` — license badge corrected from MIT to Apache 2.0 (S022)
+- `sentinel-governance/.github/` — missed in S022 batch; full template suite added in S022b
+
+#### Orchestration Patterns Applied
+- Atomic Batch Push (push_files) — new files, no SHA required
+- Read-Verify-Write (create_or_update_file + SHA) — existing README patch
+- Quality sweep pre-S023 — gap detection caught sentinel-governance omission and Language badge miss before release cuts
+
+#### Harmonic Score
+```
+Score: 1.00 — SUSTAINED (S014–S022b)
+All P1, P2, P3 surface items closed.
+Template suite: complete across all 5 active public repos with .github/
+FUNDING.yml: ecosystem-wide
+Badge posture: 6-badge standard on all repos
+```
+
+---
+
 ## [1.0.4] — 2026-05-01
 
 ### Sessions 014–021 — Daily Governance Sweep Block
@@ -38,6 +74,7 @@ Format: [Semantic Versioning](https://semver.org/) | Governed by Agent Amethyst
 - v2.5 (S017): GAP-07 closed; AGES MDAR→Gold-star-standards cert link
 - v2.6 (S019): P1-IP all 3 closed; Flickerflash residual cleared; Drive sync doc registered
 - v2.7 (S021): Driftwatch Apache-2.0 upgrade noted; License column added to public repo table; last sweep advanced to S021
+- v2.8 (S022b): S022/S022b surface sweep registered; template suite + FUNDING.yml ecosystem-wide
 
 #### Harmonic Score
 ```
