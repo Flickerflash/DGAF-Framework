@@ -1,8 +1,8 @@
 # DGAF Ecosystem Cross-Reference
 
-**Version:** 3.1  
+**Version:** 3.2  
 **Maintained by:** COLLEEN + Amethyst-Conductor  
-**Last updated:** 2026-05-01 (Session S029)  
+**Last updated:** 2026-05-01 (Session S031-BLG-D01 — NDR v1.8, CI table complete, BLG-D01 closed)  
 **Canonical home:** `DGAF-Framework/CROSS_REF.md`
 
 > Single-source map of all active repos, internal artifacts, and their governance relationships in the PHDGE ecosystem.
@@ -19,7 +19,7 @@
 | [junior-apogee-app](https://github.com/ndrorchestration/junior-apogee-app) | Agent Apogee training — evidence scoring, 11Q gate apprentice | Apache-2.0 | ✅ | ✅ | ✅ |
 | [ai-prompt-systems-portfolio](https://github.com/ndrorchestration/ai-prompt-systems-portfolio) | Prompt engineering portfolio — LLM optimization, agentic prompt patterns | Apache-2.0 | ✅ | ✅ | ✅ |
 | [Driftwatch](https://github.com/ndrorchestration/Driftwatch) | Drift detection — MDAR loop coherence monitoring | Apache-2.0 | ✅ | ✅ | ✅ |
-| [Acoustic-mesh](https://github.com/ndrorchestration/Acoustic-mesh) | Acoustic Gate Chain implementation | Apache-2.0 | ✅ | ✅ | ✅ |
+| [Acoustic-mesh](https://github.com/ndrorchestration/Acoustic-mesh) | Acoustic Gate Chain implementation (P-13) | Apache-2.0 | ✅ | ✅ | ✅ |
 | [phi-calculus-app](https://github.com/ndrorchestration/phi-calculus-app) | Phi-Harmonic calculus — platinum mean, phi-gate interval math | Apache-2.0 | ✅ | ✅ | ✅ |
 | [3d-visualization-hub](https://github.com/ndrorchestration/3d-visualization-hub) | 3D governance visualization — lattice rendering, hendecagonal geometry | Apache-2.0 | ✅ | ✅ | ✅ |
 | [resumeapex-eval](https://github.com/ndrorchestration/resumeapex-eval) | Resume evaluation pipeline — Apogee scoring integration | Apache-2.0 | ✅ | ✅ | ✅ |
@@ -35,14 +35,15 @@
 | Main README | `README.md` | Public-facing entry point; badge row; ecosystem link table | S023 |
 | Governance README | `README.governance.md` | NIST/EU AI Act compliance reference; auditor entry point | S028 |
 | Technical README | `README.technical.md` | Agent/engineer dense spec; gate stack; file tree | S028 |
-| CHANGELOG | `CHANGELOG.md` | Semantic versioned artifact history | S029 (v1.0.10) |
-| SWEEP_LOG | `SWEEP_LOG.md` | Sealed session audit trail | S029 |
-| SESSION_ANCHOR | `SESSION_ANCHOR.md` | P-21 session handoff (overwrite pattern) | S029 |
-| CROSS_REF | `CROSS_REF.md` | This file — ecosystem artifact map | S029 (v3.1) |
+| CHANGELOG | `CHANGELOG.md` | Semantic versioned artifact history | S031 (v1.0.12) |
+| SWEEP_LOG | `SWEEP_LOG.md` | Sealed session audit trail | S031 |
+| SESSION_ANCHOR | `SESSION_ANCHOR.md` | P-21 session handoff (overwrite pattern) | S031 |
+| CROSS_REF | `CROSS_REF.md` | This file — ecosystem artifact map | S031-BLG-D01 (v3.2) |
 | NOTICE | `NOTICE` | Apache-2.0 attribution + PHDGE/DGAF spine link | S014 |
 | SECURITY | `SECURITY.md` | Responsible disclosure policy | S022c |
 | ENSEMBLE_ROSTER | `ENSEMBLE_ROSTER.md` | Canonical agent registry (11 active agents) | S024 |
 | ECOSYSTEM_STATE | `ECOSYSTEM-STATE.md` | Point-in-time ecosystem audit snapshot | S013 |
+| Master Portfolio Inventory | `docs/ops/MASTER_PORTFOLIO_INVENTORY_VERIFICATION_SYSTEM.md` | Drive master inventory v2.0 — org migration sync, 10-repo state | S031-BLG-D01 |
 
 ### Gate Specs (`docs/gates/`)
 
@@ -59,7 +60,7 @@
 
 | Artifact | Path | Version | Last Updated |
 |----------|------|---------|-------------|
-| NDR Pattern Registry | `docs/patterns/NDR_PATTERN_REGISTRY.md` | v1.6 | S027 |
+| NDR Pattern Registry | `docs/patterns/NDR_PATTERN_REGISTRY.md` | **v1.8** | S031 |
 | MDAR Protocol | `docs/protocols/MDAR_PROTOCOL_v1.md` | v1.0 | S004 |
 
 ### Operations (`.operations/`) — Maintainer-Only
@@ -71,6 +72,13 @@
 | Sweep Session Init | `.operations/sweep_session_init.md` | P-02/P-21 session open checklist (COLLEEN) |
 | Seal Checklist | `.operations/seal_checklist.md` | P-06/P-15/P-20/P-21 pre-seal gate stack checklist |
 
+### Ops Docs (`docs/ops/`)
+
+| Artifact | Path | Purpose | Status |
+|----------|------|---------|--------|
+| BLG-D01 Correction Work Order | `docs/ops/BLG_D01_DRIVE_CORRECTION.md` | P-24-compliant Drive inventory delta + recovery protocol | ✅ CLOSED S031-BLG-D01 |
+| Master Portfolio Inventory | `docs/ops/MASTER_PORTFOLIO_INVENTORY_VERIFICATION_SYSTEM.md` | Drive master inventory v2.0 — canonical repo committed to spine | ✅ v2.0 S031-BLG-D01 |
+
 ### Drafts Staging (`docs/drafts/`)
 
 | Artifact | Path | Purpose |
@@ -81,7 +89,7 @@
 
 | Artifact | Path | Purpose |
 |----------|------|----------|
-| Drive Sync Policy | `docs/sync/DRIVE_SYNC_POLICY.md` | P-22 Hub-and-Spoke storage topology | 
+| Drive Sync Policy | `docs/sync/DRIVE_SYNC_POLICY.md` | P-22 Hub-and-Spoke storage topology |
 | Drive-GitHub Sync | `docs/sync/DRIVE_GITHUB_SYNC.md` | P-20 seal-time sync verification protocol |
 | Hub-Spoke Sync | `docs/sync/HUB_SPOKE_SYNC.md` | P-22 full spec |
 
@@ -92,6 +100,9 @@
 | Repo | Workflow | Purpose | Status |
 |------|----------|---------|--------|
 | `sentinel-governance` | `.github/workflows/doc-lint.yml` | markdownlint on PR + push; P-24 surface consistency gate | ✅ LIVE — S029 |
+| `DGAF-Framework` | `.github/workflows/doc-lint.yml` | markdownlint on PR + push; spine doc quality gate | ✅ LIVE — S031 |
+| `DGAF-Framework` | `.github/workflows/governance-ci.yml` | Governance integrity checks | ✅ LIVE |
+| `DGAF-Framework` | `.github/workflows/governance-sweep.yml` | Scheduled coherence sweep automation | ✅ LIVE |
 | `DGAF-Framework` | `.operations/gate_compliance_check.py` | P-24 compliance scan; run at session open | ✅ LIVE — S026 |
 
 ---
@@ -100,8 +111,8 @@
 
 ```
 DGAF-Framework (spine)
-├── governs → all repos in ecosystem
-├── pattern authority → NDR_PATTERN_REGISTRY.md (P-01 through P-24)
+├── governs → all 10 repos in ecosystem
+├── pattern authority → NDR_PATTERN_REGISTRY.md (P-01 through P-26)
 ├── gate authority → docs/gates/ (GATE-ACO, GATE-1111, GATE-11Q, GATE-TEL)
 ├── agent registry → ENSEMBLE_ROSTER.md
 ├── audit trail → SWEEP_LOG.md + CHANGELOG.md + git history
@@ -121,4 +132,5 @@ sentinel-governance
 | 1.0–2.8 | S001–S022b | Initial map through surface sweep completion |
 | 2.9 | S024 | 9-repo active table; last sweep timestamp |
 | 3.0 | S025 | Template suite + FUNDING.yml completion confirmed |
-| 3.1 | **S029** | **Internal artifact registry added: gate specs, ops dir, drafts, sync docs, dual READMEs, CI/automation table; governance relationship diagram** |
+| 3.1 | S029 | Internal artifact registry added: gate specs, ops dir, drafts, sync docs, dual READMEs, CI/automation table; governance relationship diagram |
+| **3.2** | **S031-BLG-D01** | **NDR Registry updated to v1.8; CI table updated (DGAF-Framework doc-lint + governance workflows); Master Portfolio Inventory v2.0 added to ops docs; BLG-D01 closed; 10-repo count confirmed; docs/ops/ section added** |
