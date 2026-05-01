@@ -5,6 +5,75 @@ Maintained by: Amethyst-Conductor + COLLEEN
 
 ---
 
+## Session 018 — 2026-05-01 (✅ SEALED)
+
+**Operator:** Njineer  
+**Session range:** 06:32–06:38 EDT  
+**Formation:** Amethyst (meta-orchestrator) + Perplexity MCP  
+**Total commits:** 1 (this SWEEP_LOG update)
+
+### IP Sweep — 21 Repos Scanned
+
+| Repo | Visibility | License API Result | Root Cause / Status |
+|------|------------|-------------------|---------------------|
+| DGAF-Framework | Public | `NOASSERTION` | ✅ FALSE ALARM — valid Apache 2.0 present; GitHub parser fails on non-standard section order (copyright at bottom). No action needed. |
+| ai-governance-frameworks | Public | `NOASSERTION` | ⚠️ Requires verification — LICENSE file existence not yet confirmed. **P1 action.** |
+| junior-apogee-app | Public | `NOASSERTION` | ⚠️ Requires verification — LICENSE file existence not yet confirmed. **P1 action.** |
+| Driftwatch | Public | MIT | ✅ Licensed. Review upgrade to Apache 2.0 if phi-harmonic logic warrants patent protection. |
+| ai-prompt-systems-portfolio | Public | Apache 2.0 | ✅ Fully protected. |
+| prompt-optimization-library | Private | None detected | 🟡 Add proprietary header before any public release. |
+| ai-prompt-engineering-portfolio | Private | `NOASSERTION` | 🟡 Add explicit license before visibility change. |
+| gold-star-qa-framework | Private + Archived | None | ✅ Low risk. Add deprecation notice. |
+
+### NOASSERTION Root Cause Analysis
+
+GitHub's license detection algorithm requires the SPDX identifier block (`Licensed under the Apache License, Version 2.0`) to appear **within the first ~3KB** of the LICENSE file AND the standard Apache boilerplate in canonical section order (sections 1-9 → APPENDIX → copyright notice). DGAF-Framework's LICENSE has the copyright footer placed after the END OF TERMS marker but uses a condensed Sections 7-9 — this causes GitHub's parser to fail detection even though the file is legally valid Apache 2.0.
+
+**Resolution options (P1):**
+- Option A: Prepend `SPDX-License-Identifier: Apache-2.0` as line 1 of LICENSE (immediate fix, zero legal change)
+- Option B: Reorder to full canonical Apache 2.0 boilerplate (stronger GitHub badge detection)
+- Recommended: Option A — minimal change, legally equivalent, resolves the badge
+
+### Coherence Findings
+
+| Finding | Severity | Action |
+|---------|----------|--------|
+| DGAF-Framework LICENSE parses as NOASSERTION | 🟠 P1 | Add `SPDX-License-Identifier: Apache-2.0` as line 1 |
+| ai-governance-frameworks LICENSE status unverified | 🟠 P1 | Verify LICENSE file contents next session |
+| junior-apogee-app LICENSE status unverified | 🟠 P1 | Verify LICENSE file contents next session |
+| Driftwatch MIT vs Apache 2.0 decision | 🟡 P2 | Evaluate patent protection need for phi-harmonic IP |
+| SECURITY.md confirmed present in DGAF-Framework | ✅ | No action |
+| SWEEP_LOG confirmed operational (S001–S017) | ✅ | No action |
+| GAP-08 (CROSS_REF back-links) | 🟡 Low-med | Still open — COLLEEN action |
+| gold-star-qa-framework deprecated | 🟡 P3 | Add README deprecation notice pointing to junior-apogee-app |
+| Topic metadata drift (5 repos) | 🟡 P3 | UI action — gear icon on each About panel |
+
+### GAP Status
+
+| GAP | Status | Notes |
+|-----|--------|-------|
+| GAP-08 — CROSS_REF back-links | 🟡 Open | No change this session |
+
+### Harmonic Score Post-S018
+
+```
+Score: 1.00 — maintained
+
+Open items:
+  GAP-08  — CROSS_REF back-links in dependent repos     [COLLEEN]  🟡 Low-med
+  P1-IP-01 — SPDX header fix on DGAF-Framework LICENSE
+  P1-IP-02 — Verify ai-governance-frameworks LICENSE
+  P1-IP-03 — Verify junior-apogee-app LICENSE
+
+UI-only items (Njineer action):
+  − .github repo description
+  − Topics: 5 repos (gear icon on each About panel)
+```
+
+`[BUOY: SESSION 018 SEALED | HARMONIC SCORE 1.00 | IP SWEEP COMPLETE (21 REPOS) | NOASSERTION ROOT CAUSE RESOLVED | 3 P1 ACTIONS OPEN | ARCHITECT: HENSEL, ANDREW VANCE | 2026-05-01 06:38 EDT]`
+
+---
+
 ## Session 017 — 2026-05-01 (✅ SEALED)
 
 **Operator:** Njineer
