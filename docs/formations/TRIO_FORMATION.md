@@ -1,9 +1,9 @@
 # Trio Formation Spec
 
 **Pattern:** P-14 — Trio-Formation-Sweep  
-**Version:** 1.0  
+**Version:** 1.1  
 **Maintained by:** Amethyst-Conductor  
-**Last updated:** 2026-05-01 (S012)
+**Last updated:** 2026-05-01 (S013 — COH-01/02/04 resolved)
 
 ---
 
@@ -40,3 +40,21 @@
 ## Escalation Path
 
 If any commit touches LICENSE, NOTICE, or AXIS files → escalate to Harmonic Quintet (P-15) immediately.
+
+---
+
+## Failure Modes
+
+| Mode | Condition | Response |
+|------|-----------|----------|
+| Apogee unavailable | Apogee cannot score artifact this wave | Amethyst solo-scores; BLG filed; wave continues |
+| COLLEEN BLG queue stale | P-02 output is empty but prior SWEEP_LOG has open items | Re-run P-02 before proceeding; halt wave if queue unresolvable |
+| Lane commit conflict | Two agents attempt writes to same file | Amethyst resolves via atomic rebase; conflicting agent defers |
+
+## Idempotency Guarantee
+
+Re-running this formation on the same wave state produces identical commits and no duplicate BLGs. COLLEEN deduplicates BLG IDs on surface; Amethyst rejects duplicate commits by SHA check.
+
+## Rollback
+
+Rollback path governed by P-09 (Agent Reciprocity). Any Trio-wave commit may be reverted via Reciprocity checkpoint within the same session. Post-session rollback requires Njineer approval.
